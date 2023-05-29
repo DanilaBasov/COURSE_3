@@ -1,5 +1,5 @@
 from utils.utils import get_last_dates, get_format_date, open_file_json, sort_filtered_date
-from tests.fixt import test_date
+from tests.conftest import test_date
 import pytest
 def test_open_file_json():
     date = open_file_json()
